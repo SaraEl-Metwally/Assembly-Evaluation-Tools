@@ -1,0 +1,16 @@
+reference chromosomes:
+	NC_010079 (total length: 2872915 bp, total length without N's: 2872915 bp, maximal covered length: 2813969 bp)
+	gi_161510924_ref_NC_010063.1_ (total length: 27041 bp, total length without N's: 27040 bp, maximal covered length: 23546 bp)
+	gi_225631039_ref_NC_012417.1_ (total length: 3125 bp, total length without N's: 3125 bp, maximal covered length: 2421 bp)
+
+total genome size: 2903081
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+Scafolds                 | 97.825    | 1.006       | 93        | -         | -         | -         | -         |
