@@ -1,0 +1,114 @@
+./quast.py /media/KINGSTON/Scafolds.fasta -r /media/KINGSTON/genome.fasta
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-3.8.0-44-generic-x86_64-with-Ubuntu-12.04-precise (linux_64)
+  Python version: 2.7.3
+  CPUs number: 8
+
+Started: 2019-03-19 12:17:56
+
+Logging to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /home/toshiba/Documents/Evaluation/quast-5.0.2
+Main parameters: 
+  MODE: default, threads: 2, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /media/KINGSTON/genome.fasta ==> genome
+
+Contigs:
+  Pre-processing...
+  /media/KINGSTON/Scafolds.fasta ==> Scafolds
+
+2019-03-19 12:17:56
+Running Basic statistics processor...
+  Reference genome:
+    genome.fasta, length = 2903081, num fragments = 3, GC % = 32.73
+  Contig files: 
+    Scafolds
+  Calculating N50 and L50...
+    Scafolds, N50 = 762333, L50 = 2, Total length = 2860883, GC % = 32.57, # N's per 100 kbp =  618.27
+  Drawing Nx plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/basic_stats/GC_content_plot.pdf
+  Drawing Scafolds GC content plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/basic_stats/Scafolds_GC_content_plot.pdf
+Done.
+
+2019-03-19 12:17:58
+Running Contig analyzer...
+  Scafolds
+  Logging to files /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/contigs_report_Scafolds.stdout and contigs_report_Scafolds.stderr...
+  Aligning contigs to the reference
+  quast_libs/minimap2/minimap2 -c -x asm5 -B5 -O4,16 --no-long-join -r 85 -N 50 -s \
+  65 -z 200 --mask-level 0.9 --min-occ 200 -g 2500 --score-N 2 --cs -t 2 quast_results/results_2019_03_19_12_17_56/quast_corrected_input/genome.fasta \
+  quast_results/results_2019_03_19_12_17_56/quast_corrected_input/Scafolds.fasta > \
+  quast_results/results_2019_03_19_12_17_56/contigs_reports/minimap_output/Scafolds.coords_tmp \
+  2>> quast_results/results_2019_03_19_12_17_56/contigs_reports/contigs_report_Scafolds.stderr
+  Analysis is finished.
+
+  Creating total report...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2019-03-19 12:18:00
+Running NA-NGA calculation...
+  Scafolds, Largest alignment = 435529, NA50 = 157373, NGA50 = 157373, LA50 = 6, LGA50 = 6
+  Drawing cumulative plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/aligned_stats/NGAx_plot.pdf
+Done.
+
+2019-03-19 12:18:01
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  Scafolds
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2019-03-19 12:18:02
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2019-03-19 12:18:03
+RESULTS:
+  Text versions of total report are saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/report.html
+  PDF version (tables and plots) is saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/report.pdf
+  Icarus (contig browser) is saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/icarus.html
+  Log is saved to /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/quast.log
+
+Finished: 2019-03-19 12:18:03
+Elapsed time: 0:00:06.974907
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
