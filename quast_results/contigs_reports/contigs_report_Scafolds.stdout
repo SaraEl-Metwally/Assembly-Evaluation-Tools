@@ -1,0 +1,409 @@
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Filtering alignments...
+Parsing coords...
+Loading reference...
+	Loaded [NC_010079]
+	Loaded [gi_161510924_ref_NC_010063.1_]
+	Loaded [gi_225631039_ref_NC_012417.1_]
+	Total Regions: 3
+	Total Region Length: 2903081
+Analyzing contigs...
+CONTIG: velvet.1 (1488bp)
+Best alignment score: 1488.0 (LEN: 1488, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 2679982 2681469 | 1 1488 | 1488 1488 | 100.0 | NC_010079 velvet.1
+
+CONTIG: velvet.2 (3279bp)
+Best alignment score: 3279.0 (LEN: 3279, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 17088 20366 | 1 3279 | 3279 3279 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.2
+
+CONTIG: velvet.3 (4818bp)
+Best alignment score: 4817.0 (LEN: 4818, IDY: 99.98), Total number of alignments: 1
+		One align captures most of this contig: 21101 25919 | 1 4818 | 4819 4818 | 99.98 | gi_161510924_ref_NC_010063.1_ velvet.3
+
+CONTIG: velvet.6 (900bp)
+Best alignment score: 900.0 (LEN: 900, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 2057 2956 | 1 900 | 900 900 | 100.0 | gi_225631039_ref_NC_012417.1_ velvet.6
+
+CONTIG: velvet.7 (72933bp)
+Best alignment score: 36623.7 (LEN: 36631, IDY: 99.98), Total number of alignments: 3
+			Looking for the best set of alignments (out of 3 total alignments)
+			The best set is below. Score: 72760.7, number of alignments: 3, unaligned bases: 109
+		This contig is misassembled.
+			Real Alignment 1: 2247965 2254688 | 6724 1 | 6724 6724 | 100.0 | NC_010079 velvet.7
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 5 (local)
+			Excluding internal overlap of size 176 between Alignment 2 and 3: 2181651 2211295 | 72933 43289 | 29645 29645 --> 2181651 2211119 | 72933 43465 | 29469 29469
+			Real Alignment 2: 2211220 2247850 | 43464 6834 | 36631 36631 | 99.98 | NC_010079 velvet.7
+			  Gap between these two alignments (local misassembly). Inconsistency = 100
+			Real Alignment 3: 2181651 2211119 | 72933 43465 | 29469 29469 | 99.99 | NC_010079 velvet.7
+
+CONTIG: velvet.8 (980bp)
+Best alignment score: 792.0 (LEN: 792, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 980.0, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 1 792 | 792 1 | 792 792 | 100.0 | gi_225631039_ref_NC_012417.1_ velvet.8
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 2: 2938 3125 | 980 793 | 188 188 | 100.0 | gi_225631039_ref_NC_012417.1_ velvet.8
+
+CONTIG: velvet.10 (8104bp)
+Best alignment score: 8074.8 (LEN: 8104, IDY: 99.64), Total number of alignments: 1
+		One align captures most of this contig: 4404 12480 | 8104 1 | 8077 8104 | 99.64 | gi_161510924_ref_NC_010063.1_ velvet.10
+
+CONTIG: velvet.14 (625bp)
+Best alignment score: 625.0 (LEN: 625, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 697 1321 | 625 1 | 625 625 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.14
+
+CONTIG: velvet.15 (1151bp)
+Best alignment score: 1151.0 (LEN: 1151, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 2343 3493 | 1151 1 | 1151 1151 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.15
+
+CONTIG: velvet.20 (560bp)
+Best alignment score: 560.0 (LEN: 560, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1413 1972 | 560 1 | 560 560 | 100.0 | gi_225631039_ref_NC_012417.1_ velvet.20
+
+CONTIG: velvet.22 (658bp)
+Best alignment score: 658.0 (LEN: 658, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 3650 4307 | 658 1 | 658 658 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.22
+
+CONTIG: velvet.24 (5916bp)
+Best alignment score: 5910.1 (LEN: 5916, IDY: 99.90), Total number of alignments: 1
+		One align captures most of this contig: 91465 97380 | 5916 1 | 5916 5916 | 99.9 | NC_010079 velvet.24
+
+CONTIG: velvet.27 (1813bp)
+Best alignment score: 1144.0 (LEN: 1144, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 1813.0, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled.
+			Real Alignment 1: 1 669 | 669 1 | 669 669 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.27
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 2: 25898 27041 | 1813 670 | 1144 1144 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.27
+
+CONTIG: velvet.35 (3147bp)
+Best alignment score: 3147.0 (LEN: 3147, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 13211 16357 | 1 3147 | 3147 3147 | 100.0 | gi_161510924_ref_NC_010063.1_ velvet.35
+
+CONTIG: velvet.38 (59610bp)
+Best alignment score: 54334.8 (LEN: 54471, IDY: 99.75), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 59356.8, number of alignments: 2, unaligned bases: 109
+		This contig is misassembled.
+			Real Alignment 1: 2176447 2181477 | 5030 1 | 5031 5030 | 99.94 | NC_010079 velvet.38
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 23 (local)
+			Real Alignment 2: 2121709 2176314 | 59610 5140 | 54606 54471 | 99.75 | NC_010079 velvet.38
+
+CONTIG: velvet.41 (3609bp)
+Best alignment score: 3609.0 (LEN: 3609, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 1558929 1562537 | 1 3609 | 3609 3609 | 100.0 | NC_010079 velvet.41
+
+CONTIG: velvet.42 (1215bp)
+Best alignment score: 1214.0 (LEN: 1215, IDY: 99.92), Total number of alignments: 2
+		This contig has 2 significant alignments. [An ambiguously mapped contig]
+		Using only first of these alignment (option --ambiguity-usage is set to "one"):
+			Alignment: 1937555 1938769 | 1215 1 | 1215 1215 | 99.92 | NC_010079 velvet.42
+			Skipping alignment 457763 458977 | 1 1215 | 1215 1215 | 99.92 | NC_010079 velvet.42
+
+CONTIG: velvet.89 (989718bp)
+Best alignment score: 95825.0 (LEN: 95825, IDY: 100.00), Total number of alignments: 39
+			Looking for the best set of alignments (out of 39 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 518313 518642 | 36784 37113 | 330 330 | 99.39 | NC_010079 velvet.89
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 979963.3, number of alignments: 38, unaligned bases: 6173
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 983545 out of 985027 non-N bases (99.85%))
+			Real Alignment 1: 2255272 2292093 | 36773 1 | 36822 36773 | 99.86 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1640487) between these two alignments
+			Excluding internal overlap of size 125 between Alignment 2 and 3: 622780 657615 | 88577 123412 | 34836 34836 --> 622905 657615 | 88702 123412 | 34711 34711
+			Real Alignment 2: 562515 614534 | 37024 88701 | 52020 51678 | 99.3 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, inconsistency = 8370) between these two alignments
+			Real Alignment 3: 622905 657615 | 88702 123412 | 34711 34711 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 183 (local)
+			Real Alignment 4: 657811 671552 | 123425 137159 | 13742 13735 | 99.95 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 19 (local)
+			Excluding internal overlap of size 118 between Alignment 5 and 6: 671762 705084 | 137350 170578 | 33323 33229 --> 671762 704943 | 137350 170460 | 33182 33111
+			Real Alignment 5: 671762 704943 | 137350 170460 | 33182 33111 | 99.71 | NC_010079 velvet.89
+			  Gap between these two alignments (local misassembly). Inconsistency = 156
+			Real Alignment 6: 705100 800924 | 170461 266285 | 95825 95825 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 58 (local)
+			Real Alignment 7: 801094 811322 | 266397 276561 | 10229 10165 | 99.37 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 61 (local)
+			Real Alignment 8: 811490 842892 | 276668 308070 | 31403 31403 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 14 (local)
+			Real Alignment 9: 843031 848219 | 308195 313383 | 5189 5189 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 99 (local)
+			Real Alignment 10: 848665 855658 | 313730 320723 | 6994 6994 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 45 (local)
+			Real Alignment 11: 855853 875017 | 320873 340037 | 19165 19165 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 159 (local)
+			Excluding internal overlap of size 62 between Alignment 12 and 13: 875319 875509 | 340180 340370 | 191 191 --> 875319 875447 | 340180 340308 | 129 129
+			Real Alignment 12: 875319 875447 | 340180 340308 | 129 129 | 98.95 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, inconsistency = 1823886) between these two alignments
+			Real Alignment 13: 2699334 2774782 | 415757 340309 | 75449 75449 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 12 (local)
+			Excluding internal overlap of size 72 between Alignment 14 and 15: 2665109 2680011 | 448512 433610 | 14903 14903 --> 2665109 2679939 | 448512 433682 | 14831 14831
+			Real Alignment 14: 2681398 2699162 | 433681 415917 | 17765 17765 | 99.99 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, inconsistency = 1458) between these two alignments
+			Real Alignment 15: 2665109 2679939 | 448512 433682 | 14831 14831 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 61 (local)
+			Real Alignment 16: 2633503 2664853 | 480087 448707 | 31351 31381 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 460 (local)
+			Real Alignment 17: 2629739 2632969 | 483272 480161 | 3231 3112 | 96.09 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -65 (local)
+			Excluding internal overlap of size 577 between Alignment 18 and 19: 2624529 2629578 | 488593 483498 | 5050 5096 --> 2625106 2629578 | 488016 483498 | 4473 4519
+			Real Alignment 18: 2625106 2629578 | 488016 483498 | 4473 4519 | 98.68 | NC_010079 velvet.89
+			  Gap between these two alignments (local misassembly). Inconsistency = 768
+			Real Alignment 19: 2580730 2624337 | 531608 488017 | 43608 43592 | 99.94 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 56 (local)
+			Excluding internal overlap of size 93 between Alignment 20 and 21: 2505014 2539931 | 607043 572126 | 34918 34918 --> 2505014 2539838 | 607043 572219 | 34825 34825
+			Real Alignment 20: 2540030 2580492 | 572218 531790 | 40463 40429 | 99.91 | NC_010079 velvet.89
+			  Gap between these two alignments (local misassembly). Inconsistency = 191
+			Excluding internal overlap of size 48 between Alignment 21 and 22: 2479066 2504878 | 632809 606996 | 25813 25814 --> 2479066 2504831 | 632809 607044 | 25766 25766
+			Real Alignment 21: 2505014 2539838 | 607043 572219 | 34825 34825 | 99.99 | NC_010079 velvet.89
+			  Gap between these two alignments (local misassembly). Inconsistency = 182
+			Real Alignment 22: 2479066 2504831 | 632809 607044 | 25766 25766 | 99.99 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 23 (local)
+			Real Alignment 23: 2432115 2478583 | 679620 633269 | 46469 46352 | 99.74 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 124 (local)
+			Excluding internal overlap of size 25 between Alignment 24 and 25: 313070 318691 | 722347 727968 | 5622 5622 --> 313095 318691 | 722372 727968 | 5597 5597
+			Real Alignment 24: 2389240 2431693 | 722371 679918 | 42454 42454 | 100.0 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, inconsistency = 2070548) between these two alignments
+			Real Alignment 25: 313095 318691 | 722372 727968 | 5597 5597 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 102 (local)
+			Real Alignment 26: 319234 344202 | 728409 753377 | 24969 24969 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 57 (local)
+			Real Alignment 27: 344391 347355 | 753509 756506 | 2965 2998 | 99.97 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1972035) between these two alignments
+			Real Alignment 28: 2319401 2389029 | 826145 756517 | 69629 69629 | 100.0 | NC_010079 velvet.89
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1968267) between these two alignments
+			Real Alignment 29: 348553 351123 | 826156 828670 | 2571 2515 | 97.63 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 186 (local)
+			Real Alignment 30: 351561 394815 | 828922 872176 | 43255 43255 | 99.99 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 30 (local)
+			Real Alignment 31: 394993 449282 | 872324 926613 | 54290 54290 | 99.98 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 54 (local)
+			Real Alignment 32: 450693 457792 | 927970 935017 | 7100 7048 | 99.17 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -197 (local)
+			Real Alignment 33: 457607 464994 | 935029 942289 | 7388 7261 | 97.3 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -485 (local)
+			Real Alignment 34: 464821 466256 | 942601 944036 | 1436 1436 | 99.3 | NC_010079 velvet.89
+			  Gap between these two alignments (local misassembly). Inconsistency = -128
+			Real Alignment 35: 466272 466552 | 944180 944460 | 281 281 | 97.51 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 245 (local)
+			Real Alignment 36: 467123 469858 | 944786 947505 | 2736 2720 | 98.37 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 430 (local)
+			Real Alignment 37: 470299 471022 | 947516 948239 | 724 724 | 100.0 | NC_010079 velvet.89
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 206 (local)
+			Real Alignment 38: 471239 512707 | 948250 989718 | 41469 41469 | 100.0 | NC_010079 velvet.89
+		Unaligned bases: 6173
+
+CONTIG: velvet.93 (762333bp)
+Best alignment score: 244311.9 (LEN: 244483, IDY: 99.93), Total number of alignments: 26
+			Looking for the best set of alignments (out of 26 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1071864 1072163 | 344394 344095 | 300 300 | 99.67 | NC_010079 velvet.93
+		Skipping redundant alignment 1469789 1469947 | 344488 344330 | 159 159 | 97.48 | NC_010079 velvet.93
+		Skipping redundant alignment 1380613 1380776 | 344325 344488 | 164 164 | 98.17 | NC_010079 velvet.93
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 757468.9, number of alignments: 23, unaligned bases: 2329
+		This contig is misassembled.
+			Real Alignment 1: 1427095 1442846 | 15752 1 | 15752 15752 | 100.0 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 134 (local)
+			Real Alignment 2: 1345781 1426492 | 96932 16221 | 80712 80712 | 99.99 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 1429 (extensive)
+			Real Alignment 3: 1342884 1344341 | 98400 96943 | 1458 1458 | 100.0 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = -2905) between these two alignments
+			Excluding internal overlap of size 246 between Alignment 4 and 5: 1344342 1345778 | 99847 98411 | 1437 1437 --> 1344588 1345778 | 99601 98411 | 1191 1191
+			Real Alignment 4: 1344588 1345778 | 99601 98411 | 1191 1191 | 100.0 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, inconsistency = 1674) between these two alignments
+			Real Alignment 5: 1098262 1342913 | 344084 99602 | 244652 244483 | 99.93 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -166 (local)
+			Real Alignment 6: 1072303 1098129 | 370146 344383 | 25827 25764 | 99.75 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 429 (local)
+			Real Alignment 7: 954719 1071863 | 487289 370157 | 117145 117133 | 99.99 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 47 (local)
+			Real Alignment 8: 906303 954480 | 535629 487481 | 48178 48149 | 99.94 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 608047) between these two alignments
+			Excluding internal overlap of size 124 between Alignment 9 and 10: 892015 906332 | 573434 559117 | 14318 14318 --> 892015 906208 | 573434 559241 | 14194 14194
+			Real Alignment 9: 1562538 1586137 | 535640 559240 | 23600 23601 | 99.98 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, inconsistency = 656329) between these two alignments
+			Real Alignment 10: 892015 906208 | 573434 559241 | 14194 14194 | 99.99 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 106 (local)
+			Excluding internal overlap of size 71 between Alignment 11 and 12: 875502 891649 | 589841 573694 | 16148 16148 --> 875573 891649 | 589770 573694 | 16077 16077
+			Real Alignment 11: 875573 891649 | 589770 573694 | 16077 16077 | 99.98 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, inconsistency = 1883710) between these two alignments
+			Real Alignment 12: 2775360 2830327 | 589771 644749 | 54968 54979 | 100.0 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 54 (local)
+			Real Alignment 13: 2830515 2866799 | 644883 681167 | 36285 36285 | 99.99 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 30 (local)
+			Real Alignment 14: 2866929 2872915 | 681267 687253 | 5987 5987 | 100.0 | NC_010079 velvet.93
+			  Not a misassembly [linear representation of circular genome] between these two alignments
+			Real Alignment 15: 1 24199 | 687254 711452 | 24199 24199 | 100.0 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 24 (local)
+			Real Alignment 16: 24333 35846 | 711562 723075 | 11514 11514 | 100.0 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 98 (local)
+			Real Alignment 17: 36613 44602 | 723744 731693 | 7990 7950 | 98.51 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 128 (local)
+			Excluding internal overlap of size 70 between Alignment 18 and 19: 44753 52558 | 731716 739521 | 7806 7806 --> 44753 52488 | 731716 739451 | 7736 7736
+			Real Alignment 18: 44753 52488 | 731716 739451 | 7736 7736 | 99.82 | NC_010079 velvet.93
+			  Gap between these two alignments (local misassembly). Inconsistency = 440
+			Real Alignment 19: 52929 61721 | 739452 748244 | 8793 8793 | 100.0 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 6837) between these two alignments
+			Real Alignment 20: 68569 76180 | 755866 748255 | 7612 7612 | 100.0 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -98 (local)
+			Real Alignment 21: 67345 68655 | 757187 755878 | 1311 1310 | 99.62 | NC_010079 velvet.93
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1079) between these two alignments
+			Real Alignment 22: 62351 66255 | 757198 761114 | 3905 3917 | 100.0 | NC_010079 velvet.93
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -100 (local)
+			Real Alignment 23: 66167 67374 | 761126 762333 | 1208 1208 | 98.68 | NC_010079 velvet.93
+
+CONTIG: velvet.94 (513bp)
+Best alignment score: 513.0 (LEN: 513, IDY: 100.00), Total number of alignments: 1
+		One align captures most of this contig: 2863685 2864197 | 1 513 | 513 513 | 100.0 | NC_010079 velvet.94
+
+CONTIG: velvet.115 (528332bp)
+Best alignment score: 194527.6 (LEN: 194586, IDY: 99.97), Total number of alignments: 15
+			Looking for the best set of alignments (out of 15 total alignments)
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 520407.4, number of alignments: 15, unaligned bases: 5823
+		This contig is misassembled.
+			Excluding internal overlap of size 299 between Alignment 1 and 2: 97517 110839 | 14589 27876 | 13323 13288 --> 97816 110839 | 14888 27876 | 13024 12989
+			Real Alignment 1: 76918 91685 | 1 14887 | 14768 14887 | 99.2 | NC_010079 velvet.115
+			  Extensive misassembly (relocation, inconsistency = 6130) between these two alignments
+			Excluding internal overlap of size 200 between Alignment 2 and 3: 111462 111814 | 27677 28029 | 353 353 --> 111662 111814 | 27877 28029 | 153 153
+			Real Alignment 2: 97816 110839 | 14888 27876 | 13024 12989 | 99.07 | NC_010079 velvet.115
+			  Gap between these two alignments (local misassembly). Inconsistency = 822
+			Real Alignment 3: 111662 111814 | 27877 28029 | 153 153 | 98.87 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -8 (local)
+			Real Alignment 4: 112864 169912 | 29087 86111 | 57049 57025 | 99.94 | NC_010079 velvet.115
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1273838) between these two alignments
+			Real Alignment 5: 1443761 1456887 | 86122 99248 | 13127 13127 | 100.0 | NC_010079 velvet.115
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 461528) between these two alignments
+			Real Alignment 6: 1918426 1937554 | 118361 99259 | 19129 19103 | 99.85 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 120 (local)
+			Real Alignment 7: 1912479 1917795 | 124188 118872 | 5317 5317 | 100.0 | NC_010079 velvet.115
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 439476) between these two alignments
+			Real Alignment 8: 1457740 1472992 | 124199 139451 | 15253 15253 | 99.99 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 99 (local)
+			Real Alignment 9: 1473147 1558163 | 139507 224523 | 85017 85017 | 100.0 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 5 (local)
+			Real Alignment 10: 1558502 1558958 | 224857 225313 | 457 457 | 100.0 | NC_010079 velvet.115
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 334503) between these two alignments
+			Real Alignment 11: 1893472 1910701 | 225324 242568 | 17230 17245 | 100.0 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 86 (local)
+			Real Alignment 12: 1912106 1912187 | 243887 243968 | 82 82 | 100.0 | NC_010079 velvet.115
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = -303764) between these two alignments
+			Real Alignment 13: 1608434 1803069 | 243979 438564 | 194636 194586 | 99.97 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 165 (local)
+			Real Alignment 14: 1805046 1873596 | 440376 508926 | 68551 68551 | 100.0 | NC_010079 velvet.115
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 102 (local)
+			Real Alignment 15: 1874021 1892736 | 509249 527965 | 18716 18717 | 99.98 | NC_010079 velvet.115
+
+CONTIG: velvet.118 (643bp)
+Best alignment score: 548.0 (LEN: 573, IDY: 95.64), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 548.0, number of alignments: 1, unaligned bases: 70
+		Alignment: 347465 348037 | 575 3 | 573 573 | 95.64 | NC_010079 velvet.118
+
+CONTIG: velvet.140 (142854bp)
+Best alignment score: 142399.0 (LEN: 142399, IDY: 100.00), Total number of alignments: 2
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 170038 170146 | 1 109 | 109 109 | 100.0 | NC_010079 velvet.140
+		One align captures most of this contig: 170616 313015 | 456 142854 | 142400 142399 | 100.0 | NC_010079 velvet.140
+
+CONTIG: velvet.143 (7400bp)
+Best alignment score: 3439.0 (LEN: 3439, IDY: 100.00), Total number of alignments: 2
+			Looking for the best set of alignments (out of 2 total alignments)
+			The best set is below. Score: 6463.9, number of alignments: 2, unaligned bases: 929
+		This contig is misassembled.
+			Real Alignment 1: 618914 621945 | 3032 1 | 3032 3032 | 99.93 | NC_010079 velvet.143
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 134 (local)
+			Real Alignment 2: 614412 617850 | 7400 3962 | 3439 3439 | 100.0 | NC_010079 velvet.143
+
+CONTIG: velvet.169 (237696bp)
+Best alignment score: 70511.9 (LEN: 70519, IDY: 99.99), Total number of alignments: 20
+			Looking for the best set of alignments (out of 20 total alignments)
+			Skipping redundant alignments after choosing the best set of alignments
+		Skipping redundant alignment 1996655 1996810 | 215351 215196 | 156 156 | 100.0 | NC_010079 velvet.169
+		Skipping redundant alignment 2295888 2297830 | 180795 178852 | 1943 1944 | 99.9 | NC_010079 velvet.169
+		Skipping redundant alignment 2179578 2181520 | 180795 178852 | 1943 1944 | 99.9 | NC_010079 velvet.169
+		Skipping redundant alignment 512679 514723 | 178852 180880 | 2045 2029 | 99.12 | NC_010079 velvet.169
+		This contig has several significant sets of alignments. [An ambiguously mapped contig]
+		Using only the very best set (option --ambiguity-usage is set to "one").
+			The best set is below. Score: 232056.4, number of alignments: 16, unaligned bases: 4060
+		This contig is misassembled.
+		This contig is partially unaligned. (Aligned 233636 out of 234617 non-N bases (99.58%))
+			Real Alignment 1: 1593096 1608433 | 15263 1 | 15338 15263 | 99.42 | NC_010079 velvet.169
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = -528623) between these two alignments
+			Real Alignment 2: 2112133 2121708 | 24854 15274 | 9576 9581 | 99.95 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 86 (local)
+			Real Alignment 3: 2111812 2112036 | 25089 24865 | 225 225 | 100.0 | NC_010079 velvet.169
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 518720) between these two alignments
+			Real Alignment 4: 1586094 1593081 | 32168 25100 | 6988 7069 | 98.99 | NC_010079 velvet.169
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = -525572) between these two alignments
+			Real Alignment 5: 2041135 2111655 | 102697 32179 | 70521 70519 | 99.99 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 12 (local)
+			Real Alignment 6: 2031854 2041019 | 111966 102801 | 9166 9166 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 97 (local)
+			Real Alignment 7: 2003495 2031591 | 140213 112132 | 28097 28082 | 99.95 | NC_010079 velvet.169
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1485142) between these two alignments
+			Real Alignment 8: 518209 518338 | 140228 140357 | 130 130 | 96.15 | NC_010079 velvet.169
+			  Gap between these two alignments (local misassembly). Inconsistency = 33
+			Real Alignment 9: 518553 556117 | 140539 178103 | 37565 37565 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 108 (local)
+			Real Alignment 10: 556464 558935 | 178342 180795 | 2472 2454 | 96.32 | NC_010079 velvet.169
+			  Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1437099) between these two alignments
+			Real Alignment 11: 1996130 1996300 | 181061 180891 | 171 171 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 70 (local)
+			Real Alignment 12: 1962036 1994265 | 215085 182856 | 32230 32230 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -20 (local)
+			Real Alignment 13: 1961850 1961924 | 215291 215217 | 75 75 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 144 (local)
+			Real Alignment 14: 1941800 1961510 | 235205 215487 | 19711 19719 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = 196 (local)
+			Real Alignment 15: 1941279 1941448 | 235530 235361 | 170 170 | 100.0 | NC_010079 velvet.169
+			  Incorrectly estimated size of scaffold gap between these two alignments: gap length difference = -943 (local)
+			Real Alignment 16: 1940056 1941272 | 237696 236480 | 1217 1217 | 99.84 | NC_010079 velvet.169
+		Unaligned bases: 4060
+
+CONTIG: velvet.171 (20588bp)
+Best alignment score: 19959.0 (LEN: 19961, IDY: 99.99), Total number of alignments: 1
+			Looking for the best set of alignments (out of 1 total alignments)
+			The best set is below. Score: 19959.0, number of alignments: 1, unaligned bases: 627
+		Alignment: 2297802 2317762 | 1 19961 | 19961 19961 | 99.99 | NC_010079 velvet.171
+
+Analyzing coverage...
+Writing SNPs into /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/minimap_output/Scafolds.used_snps.gz
+
+Analysis is finished!
+Founded SNPs were written into /home/toshiba/Documents/Evaluation/quast-5.0.2/quast_results/results_2019_03_19_12_17_56/contigs_reports/minimap_output/Scafolds.used_snps.gz
+
+Results:
+	Local Misassemblies: 9
+	Misassemblies: 25
+		Relocations: 25
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap extensive misassemblies: 1
+	Scaffold gap local misassemblies: 56
+	Misassembled Contigs: 4
+	Misassembled Contig Bases: 2518079
+	Misassemblies Inter-Contig Overlap: 0
+Unaligned Contigs: 0 + 2 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 3451
+
+Ambiguously Mapped Contigs: 5
+Total Bases in Ambiguously Mapped Contigs: 2519294
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 2839936
+
+	SNPs: 306
+	Insertions: 592
+	Deletions: 1970
+

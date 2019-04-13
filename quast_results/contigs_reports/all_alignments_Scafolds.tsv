@@ -1,0 +1,241 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+2679982	2681469	1	1488	NC_010079	velvet.1	100.0		True
+CONTIG	velvet.1	1488	correct
+17088	20366	1	3279	gi_161510924_ref_NC_010063.1_	velvet.2	100.0		True
+CONTIG	velvet.2	3279	correct
+21101	25919	1	4818	gi_161510924_ref_NC_010063.1_	velvet.3	99.98		True
+CONTIG	velvet.3	4818	correct
+2057	2956	1	900	gi_225631039_ref_NC_012417.1_	velvet.6	100.0		True
+CONTIG	velvet.6	900	correct
+2247965	2254688	6724	1	NC_010079	velvet.7	100.0		True
+fake: scaffold gap size wrong estimation (local)
+2211220	2247850	43464	6834	NC_010079	velvet.7	99.98		True
+local misassembly
+2181651	2211119	72933	43465	NC_010079	velvet.7	99.99		True
+CONTIG	velvet.7	72933	correct
+1	792	792	1	gi_225631039_ref_NC_012417.1_	velvet.8	100.0		True
+fake: not a misassembly [linear representation of circular genome]
+2938	3125	980	793	gi_225631039_ref_NC_012417.1_	velvet.8	100.0		True
+CONTIG	velvet.8	980	correct
+4404	12480	8104	1	gi_161510924_ref_NC_010063.1_	velvet.10	99.64		True
+CONTIG	velvet.10	8104	correct
+697	1321	625	1	gi_161510924_ref_NC_010063.1_	velvet.14	100.0		True
+CONTIG	velvet.14	625	correct
+2343	3493	1151	1	gi_161510924_ref_NC_010063.1_	velvet.15	100.0		True
+CONTIG	velvet.15	1151	correct
+1413	1972	560	1	gi_225631039_ref_NC_012417.1_	velvet.20	100.0		True
+CONTIG	velvet.20	560	correct
+3650	4307	658	1	gi_161510924_ref_NC_010063.1_	velvet.22	100.0		True
+CONTIG	velvet.22	658	correct
+91465	97380	5916	1	NC_010079	velvet.24	99.9		True
+CONTIG	velvet.24	5916	correct
+1	669	669	1	gi_161510924_ref_NC_010063.1_	velvet.27	100.0		True
+fake: not a misassembly [linear representation of circular genome]
+25898	27041	1813	670	gi_161510924_ref_NC_010063.1_	velvet.27	100.0		True
+CONTIG	velvet.27	1813	correct
+13211	16357	1	3147	gi_161510924_ref_NC_010063.1_	velvet.35	100.0		True
+CONTIG	velvet.35	3147	correct
+2176447	2181477	5030	1	NC_010079	velvet.38	99.94		True
+fake: scaffold gap size wrong estimation (local)
+2121709	2176314	59610	5140	NC_010079	velvet.38	99.75		True
+CONTIG	velvet.38	59610	correct
+1558929	1562537	1	3609	NC_010079	velvet.41	100.0		True
+CONTIG	velvet.41	3609	correct
+1937555	1938769	1215	1	NC_010079	velvet.42	99.92		True
+CONTIG	velvet.42	1215	correct
+2255272	2292093	36773	1	NC_010079	velvet.89	99.86		True
+relocation, scaffold gap is present, inconsistency = 1640487
+562515	614534	37024	88701	NC_010079	velvet.89	99.3		True
+relocation, inconsistency = 8370
+622905	657615	88702	123412	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+657811	671552	123425	137159	NC_010079	velvet.89	99.95		True
+fake: scaffold gap size wrong estimation (local)
+671762	704943	137350	170460	NC_010079	velvet.89	99.71		True
+local misassembly
+705100	800924	170461	266285	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+801094	811322	266397	276561	NC_010079	velvet.89	99.37		True
+fake: scaffold gap size wrong estimation (local)
+811490	842892	276668	308070	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+843031	848219	308195	313383	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+848665	855658	313730	320723	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+855853	875017	320873	340037	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+875319	875447	340180	340308	NC_010079	velvet.89	98.95		True
+relocation, inconsistency = 1823886
+2699334	2774782	415757	340309	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+2681398	2699162	433681	415917	NC_010079	velvet.89	99.99		True
+relocation, inconsistency = 1458
+2665109	2679939	448512	433682	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+2633503	2664853	480087	448707	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+2629739	2632969	483272	480161	NC_010079	velvet.89	96.09		True
+fake: scaffold gap size wrong estimation (local)
+2625106	2629578	488016	483498	NC_010079	velvet.89	98.68		True
+local misassembly
+2580730	2624337	531608	488017	NC_010079	velvet.89	99.94		True
+fake: scaffold gap size wrong estimation (local)
+2540030	2580492	572218	531790	NC_010079	velvet.89	99.91		True
+local misassembly
+2505014	2539838	607043	572219	NC_010079	velvet.89	99.99		True
+local misassembly
+2479066	2504831	632809	607044	NC_010079	velvet.89	99.99		True
+fake: scaffold gap size wrong estimation (local)
+2432115	2478583	679620	633269	NC_010079	velvet.89	99.74		True
+fake: scaffold gap size wrong estimation (local)
+2389240	2431693	722371	679918	NC_010079	velvet.89	100.0		True
+relocation, inconsistency = 2070548
+313095	318691	722372	727968	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+319234	344202	728409	753377	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+344391	347355	753509	756506	NC_010079	velvet.89	99.97		True
+relocation, scaffold gap is present, inconsistency = 1972035
+2319401	2389029	826145	756517	NC_010079	velvet.89	100.0		True
+relocation, scaffold gap is present, inconsistency = 1968267
+348553	351123	826156	828670	NC_010079	velvet.89	97.63		True
+fake: scaffold gap size wrong estimation (local)
+351561	394815	828922	872176	NC_010079	velvet.89	99.99		True
+fake: scaffold gap size wrong estimation (local)
+394993	449282	872324	926613	NC_010079	velvet.89	99.98		True
+fake: scaffold gap size wrong estimation (local)
+450693	457792	927970	935017	NC_010079	velvet.89	99.17		True
+fake: scaffold gap size wrong estimation (local)
+457607	464994	935029	942289	NC_010079	velvet.89	97.3		True
+fake: scaffold gap size wrong estimation (local)
+464821	466256	942601	944036	NC_010079	velvet.89	99.3		True
+local misassembly
+466272	466552	944180	944460	NC_010079	velvet.89	97.51		True
+fake: scaffold gap size wrong estimation (local)
+467123	469858	944786	947505	NC_010079	velvet.89	98.37		True
+fake: scaffold gap size wrong estimation (local)
+470299	471022	947516	948239	NC_010079	velvet.89	100.0		True
+fake: scaffold gap size wrong estimation (local)
+471239	512707	948250	989718	NC_010079	velvet.89	100.0		True
+CONTIG	velvet.89	989718	misassembled
+1427095	1442846	15752	1	NC_010079	velvet.93	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1345781	1426492	96932	16221	NC_010079	velvet.93	99.99		True
+fake: scaffold gap size wrong estimation (extensive)
+1342884	1344341	98400	96943	NC_010079	velvet.93	100.0		True
+relocation, scaffold gap is present, inconsistency = -2905
+1344588	1345778	99601	98411	NC_010079	velvet.93	100.0		True
+relocation, inconsistency = 1674
+1098262	1342913	344084	99602	NC_010079	velvet.93	99.93		True
+fake: scaffold gap size wrong estimation (local)
+1072303	1098129	370146	344383	NC_010079	velvet.93	99.75		True
+fake: scaffold gap size wrong estimation (local)
+954719	1071863	487289	370157	NC_010079	velvet.93	99.99		True
+fake: scaffold gap size wrong estimation (local)
+906303	954480	535629	487481	NC_010079	velvet.93	99.94		True
+relocation, scaffold gap is present, inconsistency = 608047
+1562538	1586137	535640	559240	NC_010079	velvet.93	99.98		True
+relocation, inconsistency = 656329
+892015	906208	573434	559241	NC_010079	velvet.93	99.99		True
+fake: scaffold gap size wrong estimation (local)
+875573	891649	589770	573694	NC_010079	velvet.93	99.98		True
+relocation, inconsistency = 1883710
+2775360	2830327	589771	644749	NC_010079	velvet.93	100.0		True
+fake: scaffold gap size wrong estimation (local)
+2830515	2866799	644883	681167	NC_010079	velvet.93	99.99		True
+fake: scaffold gap size wrong estimation (local)
+2866929	2872915	681267	687253	NC_010079	velvet.93	100.0		True
+fake: not a misassembly [linear representation of circular genome]
+1	24199	687254	711452	NC_010079	velvet.93	100.0		True
+fake: scaffold gap size wrong estimation (local)
+24333	35846	711562	723075	NC_010079	velvet.93	100.0		True
+fake: scaffold gap size wrong estimation (local)
+36613	44602	723744	731693	NC_010079	velvet.93	98.51		True
+fake: scaffold gap size wrong estimation (local)
+44753	52488	731716	739451	NC_010079	velvet.93	99.82		True
+local misassembly
+52929	61721	739452	748244	NC_010079	velvet.93	100.0		True
+relocation, scaffold gap is present, inconsistency = 6837
+68569	76180	755866	748255	NC_010079	velvet.93	100.0		True
+fake: scaffold gap size wrong estimation (local)
+67345	68655	757187	755878	NC_010079	velvet.93	99.62		True
+relocation, scaffold gap is present, inconsistency = 1079
+62351	66255	757198	761114	NC_010079	velvet.93	100.0		True
+fake: scaffold gap size wrong estimation (local)
+66167	67374	761126	762333	NC_010079	velvet.93	98.68		True
+CONTIG	velvet.93	762333	misassembled
+2863685	2864197	1	513	NC_010079	velvet.94	100.0		True
+CONTIG	velvet.94	513	correct
+76918	91685	1	14887	NC_010079	velvet.115	99.2		True
+relocation, inconsistency = 6130
+97816	110839	14888	27876	NC_010079	velvet.115	99.07		True
+local misassembly
+111662	111814	27877	28029	NC_010079	velvet.115	98.87		True
+fake: scaffold gap size wrong estimation (local)
+112864	169912	29087	86111	NC_010079	velvet.115	99.94		True
+relocation, scaffold gap is present, inconsistency = 1273838
+1443761	1456887	86122	99248	NC_010079	velvet.115	100.0		True
+relocation, scaffold gap is present, inconsistency = 461528
+1918426	1937554	118361	99259	NC_010079	velvet.115	99.85		True
+fake: scaffold gap size wrong estimation (local)
+1912479	1917795	124188	118872	NC_010079	velvet.115	100.0		True
+relocation, scaffold gap is present, inconsistency = 439476
+1457740	1472992	124199	139451	NC_010079	velvet.115	99.99		True
+fake: scaffold gap size wrong estimation (local)
+1473147	1558163	139507	224523	NC_010079	velvet.115	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1558502	1558958	224857	225313	NC_010079	velvet.115	100.0		True
+relocation, scaffold gap is present, inconsistency = 334503
+1893472	1910701	225324	242568	NC_010079	velvet.115	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1912106	1912187	243887	243968	NC_010079	velvet.115	100.0		True
+relocation, scaffold gap is present, inconsistency = -303764
+1608434	1803069	243979	438564	NC_010079	velvet.115	99.97		True
+fake: scaffold gap size wrong estimation (local)
+1805046	1873596	440376	508926	NC_010079	velvet.115	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1874021	1892736	509249	527965	NC_010079	velvet.115	99.98		True
+CONTIG	velvet.115	528332	misassembled
+347465	348037	575	3	NC_010079	velvet.118	95.64		True
+CONTIG	velvet.118	643	correct
+170616	313015	456	142854	NC_010079	velvet.140	100.0		True
+CONTIG	velvet.140	142854	correct
+618914	621945	3032	1	NC_010079	velvet.143	99.93		True
+fake: scaffold gap size wrong estimation (local)
+614412	617850	7400	3962	NC_010079	velvet.143	100.0		True
+CONTIG	velvet.143	7400	correct
+1593096	1608433	15263	1	NC_010079	velvet.169	99.42		True
+relocation, scaffold gap is present, inconsistency = -528623
+2112133	2121708	24854	15274	NC_010079	velvet.169	99.95		True
+fake: scaffold gap size wrong estimation (local)
+2111812	2112036	25089	24865	NC_010079	velvet.169	100.0		True
+relocation, scaffold gap is present, inconsistency = 518720
+1586094	1593081	32168	25100	NC_010079	velvet.169	98.99		True
+relocation, scaffold gap is present, inconsistency = -525572
+2041135	2111655	102697	32179	NC_010079	velvet.169	99.99		True
+fake: scaffold gap size wrong estimation (local)
+2031854	2041019	111966	102801	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+2003495	2031591	140213	112132	NC_010079	velvet.169	99.95		True
+relocation, scaffold gap is present, inconsistency = 1485142
+518209	518338	140228	140357	NC_010079	velvet.169	96.15		True
+local misassembly
+518553	556117	140539	178103	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+556464	558935	178342	180795	NC_010079	velvet.169	96.32		True
+relocation, scaffold gap is present, inconsistency = 1437099
+1996130	1996300	181061	180891	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1962036	1994265	215085	182856	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1961850	1961924	215291	215217	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1941800	1961510	235205	215487	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1941279	1941448	235530	235361	NC_010079	velvet.169	100.0		True
+fake: scaffold gap size wrong estimation (local)
+1940056	1941272	237696	236480	NC_010079	velvet.169	99.84		True
+CONTIG	velvet.169	237696	misassembled
+2297802	2317762	1	19961	NC_010079	velvet.171	99.99		True
+CONTIG	velvet.171	20588	correct

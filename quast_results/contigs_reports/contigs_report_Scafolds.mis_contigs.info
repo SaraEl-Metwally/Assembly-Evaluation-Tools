@@ -1,0 +1,29 @@
+velvet.89
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1640487) between 36773 1 and 37024 88701
+Extensive misassembly (relocation, inconsistency = 8370) between 37024 88701 and 88702 123412
+Extensive misassembly (relocation, inconsistency = 1823886) between 340180 340308 and 415757 340309
+Extensive misassembly (relocation, inconsistency = 1458) between 433681 415917 and 448512 433682
+Extensive misassembly (relocation, inconsistency = 2070548) between 722371 679918 and 722372 727968
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1972035) between 753509 756506 and 826145 756517
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1968267) between 826145 756517 and 826156 828670
+velvet.93
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = -2905) between 98400 96943 and 99601 98411
+Extensive misassembly (relocation, inconsistency = 1674) between 99601 98411 and 344084 99602
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 608047) between 535629 487481 and 535640 559240
+Extensive misassembly (relocation, inconsistency = 656329) between 535640 559240 and 573434 559241
+Extensive misassembly (relocation, inconsistency = 1883710) between 589770 573694 and 589771 644749
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 6837) between 739452 748244 and 755866 748255
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1079) between 757187 755878 and 757198 761114
+velvet.115
+Extensive misassembly (relocation, inconsistency = 6130) between 1 14887 and 14888 27876
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1273838) between 29087 86111 and 86122 99248
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 461528) between 86122 99248 and 118361 99259
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 439476) between 124188 118872 and 124199 139451
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 334503) between 224857 225313 and 225324 242568
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = -303764) between 243887 243968 and 243979 438564
+velvet.169
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = -528623) between 15263 1 and 24854 15274
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 518720) between 25089 24865 and 32168 25100
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = -525572) between 32168 25100 and 102697 32179
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1485142) between 140213 112132 and 140228 140357
+Extensive misassembly (relocation, scaffold gap is present, inconsistency = 1437099) between 178342 180795 and 181061 180891
