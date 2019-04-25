@@ -1,0 +1,101 @@
+velvet.10.1	GAP	5928	5955	28	0	28
+velvet.102.1	DUP	1	119	119
+velvet.104.1	DUP	1	102	102
+velvet.106.1	DUP	1	75	75
+velvet.109.1	DUP	1	225	225
+velvet.111.1	BRK	1	1	1
+velvet.112.1	DUP	1	65	65
+velvet.115.16	DUP	1	82	82
+velvet.115.2	BRK	1	1	1
+velvet.115.4	BRK	1	4	4
+velvet.115.6	GAP	15717	15536	-180	-156	-24
+velvet.116.1	DUP	1	66	66
+velvet.117.1	DUP	1	131	131
+velvet.123.1	DUP	1	239	239
+velvet.128.1	DUP	1	79	79
+velvet.129.1	DUP	1	77	77
+velvet.132.1	DUP	1	73	73
+velvet.135.1	DUP	1	65	65
+velvet.137.1	DUP	1	92	92
+velvet.138.1	DUP	1	75	75
+velvet.141.1	DUP	1	73	73
+velvet.144.1	DUP	1	98	98
+velvet.149.1	DUP	1	71	71
+velvet.152.1	BRK	67	84	18
+velvet.154.1	DUP	1	122	122
+velvet.157.1	DUP	1	124	124
+velvet.16.1	DUP	1	77	77
+velvet.161.1	DUP	1	76	76
+velvet.162.1	DUP	1	71	71
+velvet.163.1	DUP	1	71	71
+velvet.166.1	DUP	1	71	71
+velvet.167.1	DUP	1	79	79
+velvet.168.1	DUP	1	102	102
+velvet.169.10	BRK	1	1	1
+velvet.169.16	JMP	406	311	-94
+velvet.169.17	INV	212	31	-180
+velvet.169.17	INV	300	225	-74
+velvet.169.17	JMP	2259	510	-1748
+velvet.169.17	GAP	2289	2284	-4	12	-16
+velvet.17.1	DUP	1	69	69
+velvet.170.1	DUP	1	71	71
+velvet.172.1	DUP	1	71	71
+velvet.27.1	JMP	670	669	0
+velvet.37.1	DUP	1	73	73
+velvet.38.1	JMP	5031	1909	-3121
+velvet.38.1	BRK	5036	5129	94
+velvet.38.3	GAP	1445	1334	-110	-38	-72
+velvet.39.1	DUP	1	70	70
+velvet.40.1	DUP	1	130	130
+velvet.45.1	DUP	1	217	217
+velvet.49.1	DUP	1	242	242
+velvet.51.1	DUP	1	115	115
+velvet.52.1	DUP	1	131	131
+velvet.55.1	DUP	1	148	148
+velvet.56.1	DUP	1	85	85
+velvet.59.1	DUP	1	110	110
+velvet.62.1	DUP	1	75	75
+velvet.63.1	DUP	1	83	83
+velvet.64.1	DUP	1	154	154
+velvet.68.1	DUP	1	93	93
+velvet.7.2	GAP	36641	36432	-208	-108	-100
+velvet.78.1	DUP	1	89	89
+velvet.8.1	JMP	793	792	0
+velvet.80.1	DUP	1	70	70
+velvet.81.1	DUP	1	76	76
+velvet.82.1	DUP	1	185	185
+velvet.83.1	DUP	1	70	70
+velvet.84.1	DUP	1	88	88
+velvet.85.1	DUP	1	73	73
+velvet.86.1	DUP	1	151	151
+velvet.87.1	DUP	1	74	74
+velvet.88.1	DUP	1	106	106
+velvet.89.15	GAP	17766	17693	-72	1386	-1458
+velvet.89.22	GAP	4916	4219	-696	72	-768
+velvet.89.26	GAP	15275	15181	-93	98	-191
+velvet.89.26	GAP	50100	50099	0	182	-182
+velvet.89.27	JMP	433	344	-88
+velvet.89.28	INV	42455	42429	-25
+velvet.89.3	GAP	331	236	-94	43868	-43962
+velvet.89.3	GAP	51628	51706	79	8791	-8712
+velvet.89.36	BRK	54313	54353	41
+velvet.89.40	DUP	1	1423	1423
+velvet.89.42	BRK	1	1	1
+velvet.89.6	GAP	922	752	-169	-103	-66
+velvet.93.11	GAP	46072	46035	-36	-7	-29
+velvet.93.12	INV	23602	23477	-124
+velvet.93.13	INV	16167	16077	-89
+velvet.93.16	JMP	5988	5987	0
+velvet.93.18	GAP	806	633	-172	-132	-40
+velvet.93.19	JMP	7807	7736	-70
+velvet.93.21	BRK	1	1	1
+velvet.93.24	BRK	1	1	1
+velvet.93.4	GAP	1517	1191	-325	1349	-1674
+velvet.93.5	GAP	61823	61750	-72	-47	-25
+velvet.93.5	GAP	73674	73672	-1	7	-8
+velvet.93.5	GAP	136409	136407	-1	58	-59
+velvet.93.8	JMP	305	159	-145
+velvet.93.8	GAP	10230	10161	-68	-5	-63
+velvet.94.1	DUP	1	513	513
+velvet.96.1	DUP	1	75	75
+velvet.99.1	DUP	1	151	151
