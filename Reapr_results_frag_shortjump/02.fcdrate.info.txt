@@ -1,0 +1,2 @@
+#fcd_cutoff	window_length	windows_sampled	percent_cutoff
+4.97	235	11312	80
