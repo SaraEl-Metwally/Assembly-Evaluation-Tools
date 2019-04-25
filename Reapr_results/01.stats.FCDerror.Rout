@@ -1,0 +1,33 @@
+
+R version 2.14.1 (2011-12-22)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> x = c(0.07,0.08,0.09,0.1,0.11,0.12,0.13,0.14,0.15,0.16,0.17,0.18,0.19,0.2,0.21,0.22,0.23,0.24,0.25,0.26,0.27,0.28,0.29,0.3,0.31,0.32,0.33,0.34,0.35,0.36,0.37,0.38,0.39,0.4,0.41,0.42,0.43,0.44,0.45,0.46,0.47,0.48,0.49,0.5,0.51,0.52,0.53,0.54,0.55,0.56,0.57,0.58,0.59)
+> y = c(2,50,532,2709,9968,27217,61680,119281,190973,262814,302059,302033,274409,235942,193448,158181,128717,104614,85669,69679,57185,46372,37606,30663,24879,20425,16453,13339,11007,8964,7171,5801,4884,3897,3167,2576,2179,1778,1526,1316,1123,969,905,829,799,779,679,716,639,582,562,557,529)
+> pdf("01.stats.FCDerror.pdf")
+> plot(x, y, xlab="FCD Error", ylab="Frequency", type="l")
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  0.640   0.008   0.636 
