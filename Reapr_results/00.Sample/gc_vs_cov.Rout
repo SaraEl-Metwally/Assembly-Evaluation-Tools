@@ -1,0 +1,41 @@
+
+R version 2.14.1 (2011-12-22)
+Copyright (C) 2011 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> data=read.csv(file="00.Sample/gc_vs_cov.dat", colClasses=c("numeric", "integer"), header=F, sep="	", comment.char="")
+> l=lowess(data)
+> data_out=unique(data.frame(l$x,l$y))
+> write(t(data_out), sep="	", ncolumns=2, file="00.Sample/gc_vs_cov.lowess.dat.tmp")
+> pdf("00.Sample/gc_vs_cov.lowess.pdf")
+>   smoothScatter(data, xlab="GC", ylab="Coverage")
+KernSmooth 2.23 loaded
+Copyright M. P. Wand 1997-2009
+Warning message:
+In KernSmooth::bkde2D(x, bandwidth = bandwidth, gridsize = nbin,  :
+  Binning grid too coarse for current (small) bandwidth: consider increasing 'gridsize'
+>   lines(data_out)
+> dev.off()
+null device 
+          1 
+> 
+> proc.time()
+   user  system elapsed 
+  6.684   0.088   6.845 
