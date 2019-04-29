@@ -1,0 +1,5 @@
+#id	length	errors	errors_length	perfect_cov	perfect_cov_length	repeat	repeat_length	clip	clip_length	score	score_length	frag_dist	frag_dist_length	frag_dist_gap	frag_dist_gap_length	frag_cov	frag_cov_length	frag_cov_gap	frag_cov_gap_length	read_cov	read_cov_length	link	link_length	read_orientation	read_orientation_length
+NC_010079_Staphylococcus_aureus_subsp._aureus_USA300_TCH1516__complete_genome	2872915	13877	5018340	4728	679513	1	48299	0	0	0	0	0	0	0	0	159	1321716	0	0	0	0	2795	1072319	6194	1896493	
+gi_161510924_ref_NC_010063.1__Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA300HOUMR__complete_sequence	27041	57	42022	6	848	1	26233	0	0	0	0	0	0	0	0	0	0	0	0	0	0	50	14941	0	0	
+gi_225631039_ref_NC_012417.1__Staphylococcus_aureus_subsp._aureus_USA300_TCH1516_plasmid_pUSA01_HOU__complete_sequence	3125	4	761	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	761	0	0	
+WHOLE_ASSEMBLY	2903081	13938	5061123	4734	680361	2	74532	0	0	0	0	0	0	0	0	159	1321716	0	0	0	0	2849	1088021	6194	1896493
