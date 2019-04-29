@@ -1,0 +1,7 @@
+mean	21712
+sd	16822
+mode	235
+pc1	105
+pc99	46575
+ave	23645
+inner_mean_cov	81.998124
