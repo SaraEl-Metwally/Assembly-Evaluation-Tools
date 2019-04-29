@@ -1,0 +1,14 @@
+read_cov_mean	36.43
+read_cov_sd	61.30
+read_cov_mode	24.50
+fragment_cov_mean	31.88
+fragment_cov_sd	52.46
+fragment_cov_mode	21.50
+fragment_length_mean	170.70
+fragment_length_sd	22.65
+fragment_length_mode	163.50
+fragment_length_min	135
+fragment_length_max	255
+use_perfect	0
+sample_ave_fragment_length	205
+fcd_skip	1
