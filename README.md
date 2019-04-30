@@ -10,7 +10,7 @@ The evaluation tools vary in their input files, we used the following input file
 1. Reference genome file for S. aureus data set,[genome.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta).
 2. Contigs assembly files produced by Velvet assembler, [genome.ctg.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus).
 3. Scaffolds assembly files produced by Velvet assembler, [genome.scf.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus).
-4. Sequencing library 1 (fragment with average reads length: 101bp, insert length: 180bp, and total number of reads:1,294,104), [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_1.fastq.gz) and [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_2.fastq.gz).
+4. Sequencing library 1 (fragment with average reads length: 101bp, insert length: 180bp, and # of reads:1,294,104),          [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_1.fastq.gz) and [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_2.fastq.gz).
 
 ### Assemblathon evaluation tool
 1. Download [assemblathon_stats.pl](https://github.com/KorfLab/Assemblathon/blob/master/assemblathon_stats.pl) script from assemblathon website and run the following command line:<br/> `perl assemblathon_stats.pl -genome_size 2903081 genome.scf.fasta` 
