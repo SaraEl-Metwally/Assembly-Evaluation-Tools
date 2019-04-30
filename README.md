@@ -7,6 +7,7 @@ In order to repliacte the assembly evaluation results presented in our paper " A
 2. [GAGE](http://gage.cbcb.umd.edu/results/gage-validation.tar.gz)
 3. [QUAST](https://sourceforge.net/projects/quast/files/quast-5.0.2.tar.gz)
 4. [CGAL](https://pachterlab.github.io/cgal/)
+5. [REAPR](https://www.sanger.ac.uk/science/tools/reapr)
 
 ### Data Set:
 The evaluation tools vary in their input files, we used the following input files with the benchmarked assembly evaluation tools:
@@ -33,3 +34,5 @@ The evaluation tools vary in their input files, we used the following input file
 3. cd quast-5.0.2
 4. run the following command `./quast.py genome.scf.fasta -r genome.fasta`
 5. display the summary of QUAST evaluation results using the following command: <br/> `less quast_results/latest/report.txt` 
+
+### CGAL evaluation tool
