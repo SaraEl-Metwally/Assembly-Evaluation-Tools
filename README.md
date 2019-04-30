@@ -41,3 +41,10 @@ The evaluation tools vary in their input files, we used the following input file
 2. Unzip the file and cd bowtie2-2.3.5.1-linux-x86_64
 3. run the following command `./bowtie2-build genome.fasta results`
 4. run the following command `./bowtie2 -a --no-mixed -t -x results -1 frag_1.fastq -2 frag_2.fastq -S results.sam`
+#### CGAL Tool
+1. Download [CGAL](https://pachterlab.github.io/cgal/)
+2. tar -xvf cgal-0.9.6-beta.tar 
+3. cd cgal-0.9.6-beta
+4. make
+5. run the command `./bowtie2convert results.sam 101` where `results.sam` is the reads mapping file resulted from `Bowtie2`.
+6. run the command `./cgal genome.scf.fasta`
