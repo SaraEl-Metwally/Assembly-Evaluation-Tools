@@ -27,4 +27,9 @@ The evaluation tools vary in their input files, we used the following input file
 5. tar xvzf gage-validation.tar.gz
 6. run the following command `sh getCorrectnessStats.sh genome.fasta genome.ctg.fasta genome.scf.fasta`
  
-
+### QUAST evaluation tool 
+1. Download [QUAST]((https://sourceforge.net/projects/quast/files/quast-5.0.2.tar.gz)
+2. tar -xzf quast-5.0.2.tar.gz
+3. cd quast-5.0.2
+4. run the following command `./quast.py genome.scf.fasta -r genome.fasta`
+5. display the summary of QUAST evaluation results using the following command `less quast_results/latest/report.txt` 
