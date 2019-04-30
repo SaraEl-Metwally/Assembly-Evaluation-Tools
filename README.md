@@ -2,13 +2,15 @@
 <p align="justify">
 In order to repliacte the assembly evaluation results presented in our paper " A roadmap to sequence assembly evaluation tools ", we created this repository.
 
-## Data set
-<p align="justify">
-We used a real benchmark dataset (S. aureus, genome size= 2903081bp) from [GAGE website](http://gage.cbcb.umd.edu/data/index.html). There are two sequencing libraries for this data set, one is fragmented with average read length 101bp and the other is short jump with average read length 37bp. The [reference genome](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta) for S. aureus data set is provided to some reference based evaluation tools to compute various accuarcy metrics. We extracted the [Contigs/Scaffolds](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus) produced by Velvet assembler and ran the following assembly evaluation tools: [Assemblathon](https://github.com/KorfLab/Assemblathon), [GAGE](http://gage.cbcb.umd.edu/results/gage-validation.tar.gz), [QUAST](https://sourceforge.net/projects/quast/files/quast-5.0.2.tar.gz), and [CGAL](https://pachterlab.github.io/cgal/). 
+### Assembly evaluation tools
+1. [Assemblathon](https://github.com/KorfLab/Assemblathon)
+2. [GAGE](http://gage.cbcb.umd.edu/results/gage-validation.tar.gz)
+3. [QUAST](https://sourceforge.net/projects/quast/files/quast-5.0.2.tar.gz)
+4. [CGAL](https://pachterlab.github.io/cgal/)
 
-### Notes:
+### Data Set:
 The evaluation tools vary in their input files, we used the following input files with the benchmarked assembly evaluation tools:
-1. Reference genome file for S. aureus data set, [genome.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta).
+1. Reference genome file for S. aureus data set genome size= 2903081bp, [genome.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/genome.fasta).
 2. Contigs assembly files produced by Velvet assembler, [genome.ctg.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus).
 3. Scaffolds assembly files produced by Velvet assembler, [genome.scf.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus).
 4. Sequencing library 1 (fragments with average reads length 101bp, insert length 180bp, and no. of reads = 1,294,104),          [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_1.fastq.gz) and [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_2.fastq.gz).
