@@ -80,5 +80,5 @@ The evaluation tools vary in their input files, we used the following input file
    `./reapr pipeline Scaffolds.fa results.bam Final map_results` <br/>
 
  #### Notes
- 1. we run the command `./reapr facheck genome.scf.fasta Scaffolds` before starting the SMALT mapping step to check the scaffolds file produced by Velvet.
+ 1. We run the command `./reapr facheck genome.scf.fasta Scaffolds` before starting the SMALT mapping step to check the scaffolds file produced by Velvet.
  2. If you unfamiliar with samtools, please check this [samtools tutorial](http://quinlanlab.org/tutorials/samtools/samtools.html).
