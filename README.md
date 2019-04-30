@@ -49,3 +49,20 @@ The evaluation tools vary in their input files, we used the following input file
 4. make
 5. run the command `./bowtie2convert results.sam 101` where `results.sam` is the reads mapping file resulted from `Bowtie2`.
 6. run the command `./cgal genome.scf.fasta`
+
+### REAPR evaluation tool
+
+#### Reads mapping step using SMALT:
+1. Download [SMALT](http://sourceforge.net/projects/smalt/)
+2. tar zxvf smalt-0.7.6.tar.gz
+3. cd smalt-0.7.6
+4. ./configure
+5. make
+6. make install
+7. In the case of using library 1, run the command `./smalt index -k 20 -s 13 results Scaffolds.fa`
+   In the case of using libraries 1 and 2, run the command ` ./smalt index -k 11 -s 2 results Scaffolds.fa`
+8. In the case of using library 1, run the command `./smalt map -f samsoft -o long.sam longs frag_1.fastq frag_2.fastq`
+   In the case of using libraries 1 and 2, run the command `./smalt map -x -r 0 -y 0.7 -j 2000 -i 5000 -o shorts.sam shorts shortjump_1.fastq shortjump_2.fastq`
+
+
+ we run the command `./reapr facheck genome.scf.fasta Scaffolds`
