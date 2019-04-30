@@ -74,7 +74,7 @@ The evaluation tools vary in their input files, we used the following input file
 3. cd Reapr_1.0.18
 4. ./install.sh
 5. In the case of using library 1, run the following command: <br/>
-   `./reapr pipeline Scaffolds.fa results.bam  Final`
+   `./reapr pipeline Scaffolds.fa results.bam  Final` <br/>
    In the case of using libraries 1 and 2, run the two commands: <br/>
    `./reapr perfectmap Scaffolds.fa frag_1.fastq frag_2.fastq 165 map_results` <br/>
    `./reapr pipeline Scaffolds.fa results.bam Final map_results` <br/>
