@@ -36,3 +36,4 @@ The evaluation tools vary in their input files, we used the following input file
 5. display the summary of QUAST evaluation results using the following command: <br/> `less quast_results/latest/report.txt` 
 
 ### CGAL evaluation tool
+1. Download [Bowtie2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.5.1/) and you can use the binaries directly for Intel x86_64 architecture (https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.5.1/bowtie2-2.3.5.1-linux-x86_64.zip/download).
