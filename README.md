@@ -65,8 +65,20 @@ The evaluation tools vary in their input files, we used the following input file
    In the case of using libraries 1 and 2, run the two commands: <br/>
    ` ./smalt index -k 11 -s 2 results Scaffolds.fa` <br/>
    `./smalt map -x -r 0 -y 0.7 -j 2000 -i 5000 -o results.sam results shortjump_1.fastq shortjump_2.fastq`
-8. The resulted .sam files shoud be sorted, converted to .bam and indexed. We used the following samtools commands to complete these tasks: <br/>
-   `samtools sort results.sam  > results.bam `
-   `samtools index results.bam `
- we run the command `./reapr facheck genome.scf.fasta Scaffolds`
- If you unfamiliar with samtools, please check this [samtools tutorial](http://quinlanlab.org/tutorials/samtools/samtools.html).
+8. The resulted .sam file shoud be sorted, converted to .bam and indexed. We used the following samtools command to complete these tasks: <br/>
+   `samtools sort results.sam  > results.bam ` <br/>
+   `samtools index results.bam ` <br/>
+#### REAPR Tool 
+1. Download [REAPR](ftp://ftp.sanger.ac.uk/pub/resources/software/reapr/Reapr_1.0.18.tar.gz)
+2. tar -zxf Reapr_1.0.18.tgz
+3. cd Reapr_1.0.18
+4. ./install.sh
+5. In the case of using library 1, run the following command: <br/>
+   `./reapr pipeline Scaffolds.fa results.bam  Final`
+   In the case of using libraries 1 and 2, run the two commands: <br/>
+   `./reapr perfectmap Scaffolds.fa frag_1.fastq frag_2.fastq 165 map_results`<br/>
+   `./reapr pipeline Scaffolds.fa results.bam Final map_results` <br/>
+
+ #### Notes
+ 1. we run the command `./reapr facheck genome.scf.fasta Scaffolds` before starting the SMALT mapping step to check the scaffolds file produced by Velvet.
+ 2. If you unfamiliar with samtools, please check this [samtools tutorial](http://quinlanlab.org/tutorials/samtools/samtools.html).
