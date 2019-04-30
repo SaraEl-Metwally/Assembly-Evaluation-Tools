@@ -14,7 +14,7 @@ The evaluation tools vary in their input files, we used the following input file
 2. Contigs assembly files produced by Velvet assembler, [genome.ctg.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus).
 3. Scaffolds assembly files produced by Velvet assembler, [genome.scf.fasta](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus).
 4. Sequencing library 1 (fragments with average reads length 101bp, insert length 180bp, and no. of reads = 1,294,104),          [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_1.fastq.gz) and [frag_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/frag_2.fastq.gz).
-5. Sequencing library 2 (short jump with average reads length 37bp, insert length 3500bp, and no. of reads = 3,494,070),          [shortjump_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/shortjump_1.fastq.gz) and [shortjump_2.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/shortjump_2.fastq.gz).
+5. Sequencing library 2 (short jumps with average reads length 37bp, insert length 3500bp, and no. of reads = 3,494,070),          [shortjump_1.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/shortjump_1.fastq.gz) and [shortjump_2.fastq](http://gage.cbcb.umd.edu/data/Staphylococcus_aureus/Data.original/shortjump_2.fastq.gz).
 
 ### Assemblathon evaluation tool
 1. Download [assemblathon_stats.pl](https://github.com/KorfLab/Assemblathon/blob/master/assemblathon_stats.pl) script from assemblathon website and run the following command line:<br/> `perl assemblathon_stats.pl -genome_size 2903081 genome.scf.fasta` 
@@ -27,4 +27,4 @@ The evaluation tools vary in their input files, we used the following input file
 5. tar xvzf gage-validation.tar.gz
 6. run the following command `sh getCorrectnessStats.sh genome.fasta genome.ctg.fasta genome.scf.fasta`
  
-</p> 
+
