@@ -36,4 +36,8 @@ The evaluation tools vary in their input files, we used the following input file
 5. display the summary of QUAST evaluation results using the following command: <br/> `less quast_results/latest/report.txt` 
 
 ### CGAL evaluation tool
+#### Reads mapping step using Bowtie2:
 1. Download [Bowtie2](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.5.1/) and you can use the [binaries](https://sourceforge.net/projects/bowtie-bio/files/bowtie2/2.3.5.1/bowtie2-2.3.5.1-linux-x86_64.zip/download) directly for Intel x86_64 architecture.
+2. Unzip the file and cd bowtie2-2.3.5.1-linux-x86_64
+3. run the following command `./bowtie2-build genome.fasta results`
+4. run the following command `./bowtie2 -a --no-mixed -t -x results -1 frag_1.fastq -2 frag_2.fastq -S results.sam
